@@ -44,6 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
     drawRectangle(block2, context);
     drawRectangle(block3, context);
 
+    Engine.update(engine, 1000 / 60);
+    Render.world(render);
+    requestAnimationFrame(gameLoop);
+
     requestAnimationFrame(gameLoop);
   };
 
