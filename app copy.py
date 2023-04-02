@@ -1,3 +1,6 @@
+"""
+Author: Calixte Mayoraz
+"""
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup, WebAppInfo
 from telegram.ext import ApplicationBuilder, CallbackContext, CommandHandler, MessageHandler, filters
 from credentials import BOT_TOKEN, BOT_USERNAME, WEBAPP_URL
